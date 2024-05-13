@@ -1,0 +1,9 @@
+version: "2.27.0"
+services:
+  webserver:
+    image: nginx
+    container_name: "nginx"
+    ports:
+      - "5500:5500"
+    volumes:
+      - ./BFH-html:/usr/share/nginx/html
