@@ -496,19 +496,18 @@
           <h4>
             Subscribe
           </h4>
-          <form action="mailto:monk.varora@bfhaltruistic.com"
-                method="POST"
-                enctype="multipart/form-data"
-                name="contact" netlify>
-            Name:<br>
-            <input type="text" size="19" name="Contact-Name"><br><br>
-            Email:<br>
-            <input type="email" name="Contact-Email"><br><br> 
-            Message:<br> 
-            <textarea name="Contact-Message" rows="6″ cols="20″>
-            </textarea><br><br> 
-            <button type="submit" value="Submit">Send</button>
-        </form>  
+          <form name="contact" netlify
+                mailto="monk.varora@bfhaltruistic.com">
+            <p>
+              <label>Name <input type="text" name="name" /></label>
+            </p>
+            <p>
+              <label>Email <input type="email" name="email" /></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
         </div>
       </div>
     </div>
